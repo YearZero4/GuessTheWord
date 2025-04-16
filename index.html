@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guess the word</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/font.css" />
+	</head>
+	<body>
+		<div id="next"></div>
+		<div id="failed">
+			<h2 id="error"></h2>
+		</div>
+		<div class="container">
+			<div class="game">
+				<div id="findPalabra">
+					<h3 id="cantidadLetter"></h3>
+					<div id="letterAll"></div>
+				</div>
+				<div class="submit">
+					<label>Letra => </label>
+					<input id="input0" type="text" />
+				</div>
+				<button onclick="check()">Comprobar</button>
+				<script src="./assets/js/script.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
